@@ -1,4 +1,4 @@
-# ESP32 Signal Data Logger with Node.js API
+# ESP32 AC Powered with Node.js API to data log
 
 This project uses an **ESP32** microcontroller to send signal data (when a digital pin goes HIGH) to a **Node.js** backend API. The backend uses **MongoDB** to store user data and the signal data. The ESP32 device sends the data to the server only when the signal on a specific pin goes HIGH, with API key-based authentication.
 
