@@ -10,8 +10,8 @@ connectDB();
 
 app.use(express.json());
 
-app.use(authRoutes);
-app.use(dataRoutes);
+app.use('/auth', authRoutes);
+app.use('/data', dataRoutes);
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
